@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #37023b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #C6A07B;
+}
+
+article {
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  border: 1em solid #FFFFFF;
+}
+
+h1 {
+  font-size: 4em;
+  color: #FEFEFE;
+}
+
+.text-purple {
+  color: #37023b; 
+}
+
+.senha {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-size: large;
+
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+input[type=text] {
+  border: 2px solid #37023b;
+  border-radius: 4px;
+  width: 200px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+
+.button-group {
+  text-align: center;
+}
+
+.button-group button {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+button {
+  background-color: #37023b;
+  border: 1px solid #000;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #a4d5f5;
+}
+
+form fieldset label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  margin-right: 2cm;
+}
+
+.sair {
+  background-color: #EE6352;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.continuar {
+  background-color: #57A773;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.cancelamento {
+  color: #EE6352;
+}
+
+footer {
+  color: #FEFEFE;
+  background-color: #ec95a3;
+}
